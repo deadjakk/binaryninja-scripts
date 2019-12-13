@@ -7,7 +7,7 @@ after which, takes the function names and corresponding addresses and updates th
 symbols for the current binaries
 
 Useful since binja doesn't like to recognize/resolve some functions appropriately in ARM
-(any probably others). 
+(and probably others). 
 
 To use: be sure not to use while in a bndb file, if you so wish, you can edit the very simple
 script and hardcode your desired binary address
